@@ -5,6 +5,6 @@ phases:
       python: 3.9
   build:
     commands:
-      - aws s3 cp ./glue_script.py s3://myglue-bucket-83/scripts/
+      - aws s3 cp ./glue_script.py s3://myglue-bucket-83/scripts
   post_build:
     commands:
