@@ -16,7 +16,7 @@ job.init(args['JOB_NAME'], args)
 # Read data directly from S3
 source_path = "s3://myglue-bucket-83-new/input/sample.csv"
 df = spark.read.format("csv").option("header","true").load(source_path)
-df.printSchema()
+df.printSchema()  
 
 
 
