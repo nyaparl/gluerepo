@@ -16,5 +16,5 @@ phases:
   post_build:
     commands:
       - echo "uploading to s3..."
-      - aws s3 cp dmoduleslib.zip s3://my-bucket-2024-05-30-new/scripts/
+      - aws s3 cp moduleslib.zip s3://my-bucket-2024-05-30-new/scripts/
       - echo "Deployment complete !!!!!!!!"
