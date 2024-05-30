@@ -9,7 +9,10 @@ phases:
   build:
     commands:
       - Nothing to build ...."
-      - zip -r9 moduleslib.zip .
+      - cd lib
+      - zip -r9 ../moduleslib.zip .
+      - cd ..
+      - zip -g deployment_package.zip *
       
   post_build:
     commands:
