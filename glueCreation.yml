@@ -14,7 +14,7 @@ Resources:
       WorkerType: G.1X
       NumberOfWorkers: 3
       DefaultArguments:
-        "--extra-jars": "s3://my-bucket-2024-05-30-new/scripts/"
+        "--extra-jars": "s3://my-bucket-2024-05-30-new/scripts/moduleslib.zip"
 
 
   GlueServiceRole:
